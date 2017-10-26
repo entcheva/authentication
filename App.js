@@ -11,9 +11,9 @@ export default class App extends Component {
       authDomain: 'auth-acb21.firebaseapp.com',
       databaseURL: 'https://auth-acb21.firebaseio.com',
       projectId: 'auth-acb21',
-      storageBucket: '',
+      storageBucket: 'auth-acb21.appspot.com',
       messagingSenderId: '13828717977'
-    })
+    });
   }
 
   render() {
