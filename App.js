@@ -14,7 +14,7 @@ export default class App extends Component {
       storageBucket: 'auth-acb21.appspot.com',
       messagingSenderId: '13828717977'
     });
-  }
+  };
 
   render() {
     return (
@@ -23,5 +23,5 @@ export default class App extends Component {
       <LoginForm />
     </View>
     );
-  }
+  };
 };
